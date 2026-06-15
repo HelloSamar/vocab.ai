@@ -1,46 +1,59 @@
-# english.ai
+# abhyasam.ai
 
-english.ai is a revision web app for government exam aspirants who want quick English practice with Hindi support.
+abhyasam.ai is a study helper for SSC CGL and SSC CHSL preparation.
 
-## What it does
+## Current goal
 
-Enter an English word, phrase, spelling word, or grammar topic and build your revision PDF automatically. For each lookup, english.ai gives:
+The app is being built as a focused revision workspace for government exam aspirants. It currently has these sections:
 
-- Hindi meaning
-- Two synonyms
-- Two antonyms
-- One exam-style example sentence
-- Hindi meaning of the example sentence
+- Syllabus
+- General Studies
+- English
+- Mathematics
+- Reasoning
+- Computer Mode
 
-Every generated entry is saved for later revision. Learners can download the saved list as a PDF and use it for quick review before mocks.
+## Section plan
 
-## Who it is for
+### Syllabus
 
-english.ai is useful for aspirants preparing for exams such as:
+A blank checklist area for now. Users can add syllabus topics, mark them completed, and see how many topics are ticked out of the total.
 
-- SSC CGL
-- SSC CHSL
-- Banking exams
-- Railway exams
-- Defence exams
-- State government exams
-- Other competitive exams with English sections
+### General Studies
 
-## Focus areas
+Users paste notes or raw content. The app organises the content from an SSC CGL and CHSL perspective.
 
-The app is designed around common English needs in government exams:
+Supported subject buckets:
+
+- Geography - Physical, Indian, World
+- History - Ancient, Medieval, Modern
+- Science - Physics, Chemistry, Biology
+- Polity
+- Economics
+- Environment
+- Static GK
+- Current Affairs
+
+### English
+
+Users choose one of these areas:
 
 - One Word Substitution
 - Idioms
 - Antonyms & Synonyms
 - Spellings
 - Grammar
-- Important words and phrases
 
-## Revision tip
+For English entries, the app keeps the existing revision workflow: Hindi meaning, two synonyms, two antonyms, exam-style example, Hindi meaning of the example, saved revision list, and PDF download.
 
-Generate entries for the words, phrases, spelling traps, and grammar points you miss in practice sets, previous-year questions, mocks, or daily reading. Keep adding them to your saved list, then download the PDF for fast revision before tests.
+### Mathematics and Reasoning
 
-## Optional sync
+Users paste raw content, question text, or notes. The app converts it into cleaner SSC CGL/CHSL revision structure.
 
-Cross-device sync can be enabled with Firebase Google sign-in and Firestore. Until Firebase is configured, the app continues to work locally in the browser.
+### Computer Mode
+
+Users paste computer-awareness notes and organise them for exam revision.
+
+## Sync
+
+Cross-device sync will be enforced later. Current saved entries are stored locally in the browser.
