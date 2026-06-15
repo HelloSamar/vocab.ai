@@ -1,6 +1,6 @@
 # vocab.ai
 
-A single-purpose vocabulary web app for English learners who want quick Hindi support.
+vocab.ai is a single-purpose vocabulary revision web app for SSC CGL aspirants.
 
 ## Goal
 
@@ -9,10 +9,14 @@ A user enters an English word or phrase. The app returns:
 - Hindi meaning
 - Two synonyms
 - Two antonyms
-- One example sentence
+- One SSC CGL-style example sentence
 - Hindi meaning of the example sentence
 
-Every generated entry is saved in the browser so the learner can review previous searches and download them later as a PDF.
+Every generated entry is saved in the learner's browser so it can be revised later and downloaded as a PDF.
+
+## Target user
+
+SSC CGL aspirants who want quick English vocabulary practice with Hindi support.
 
 ## Live site
 
@@ -41,14 +45,14 @@ Everything unrelated to the vocabulary app has been removed from the active `mai
 
 ## Features
 
-- Browser-based lookup
+- SSC CGL-focused vocabulary lookup
 - Hindi meaning for the searched word or phrase
 - Two synonyms and two antonyms
-- Example sentence
+- SSC-style example sentence
 - Hindi meaning of the example sentence
-- Local search history using `localStorage`
-- Download saved entries as PDF
-- Download saved entries as JSON backup
+- Local revision history using `localStorage`
+- Download saved revision list as PDF
+- Download saved revision list as JSON backup
 - Clear saved history
 - Works as a static GitHub Pages site
 
@@ -72,4 +76,4 @@ Settings -> Pages -> Source -> GitHub Actions
 
 ## Note about accuracy
 
-This is a static frontend app. It uses public browser-side lookup services where available and built-in examples for common words. For perfect AI-quality results for every phrase, connect a small backend API later.
+This is a static frontend app. It uses built-in SSC-style examples for common exam words and public browser-side lookup services where available. For perfect AI-quality results for every phrase, connect a small backend API later.
